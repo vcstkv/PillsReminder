@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">PillsReminder</string>
+    <string name="app_name">Pillminder</string>
+    <string name="add_item_name">Add</string>
+    <string name="settings_item_name">Settings</string>
 </resources>
