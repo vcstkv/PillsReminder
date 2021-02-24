@@ -13,11 +13,10 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="toolbarStyle">@style/App.ToolbarStyle</item>
-
     </style>
 
     <style name="App.ToolbarStyle" parent="Widget.AppCompat.Toolbar">
-<!--        <item name="titleTextColor">@color/yellow</item>-->
+        <item name="titleTextColor">@color/yellow</item>
     </style>
 
 </resources>

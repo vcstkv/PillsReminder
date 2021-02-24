@@ -1,12 +1,11 @@
 package com.viset.pillsreminder
 
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import kotlin.Boolean as Boolean
+import androidx.navigation.findNavController
+import androidx.navigation.ui.onNavDestinationSelected
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,24 +21,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            R.id.add_item -> {
-                Toast.makeText(this, "Add item", Toast.LENGTH_SHORT).show()
-                return true
-            }
-
-            R.id.settings_item -> {
-                Toast.makeText(this, "Settings item", Toast.LENGTH_SHORT).show()
-                return true
-            }
-
-            else -> {
-                // If we got here, the user's action was not recognized.
-                // Invoke the superclass to handle it.
-                Toast.makeText(this, "unk item", Toast.LENGTH_SHORT).show()
-                return super.onOptionsItemSelected(item)
-            }
-        }
+        val navController = findNavController(R.id.nav_host_fragment)
+        return item.onNavDestinationSelected(navController) || super.onOptionsItemSelected(item)
     }
 
 }

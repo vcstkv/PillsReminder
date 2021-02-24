@@ -16,6 +16,6 @@
     </style>
 
     <style name="App.ToolbarStyle" parent="Widget.AppCompat.Toolbar">
-        <!--        <item name="titleTextColor">@color/yellow</item>-->
+        <item name="titleTextColor">@color/yellow</item>
     </style>
 </resources>
