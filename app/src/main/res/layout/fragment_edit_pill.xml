@@ -57,13 +57,5 @@
             android:layout_width="match_parent"
             android:layout_height="16dp" />
 
-        <EditText
-            android:id="@+id/editTextDate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/edit_pill_date"
-            android:inputType="date" />
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

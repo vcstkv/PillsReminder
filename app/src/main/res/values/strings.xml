@@ -4,5 +4,18 @@
     <string name="settings_item_name">Settings</string>
     <string name="edit_pill_name">Name</string>
     <string name="edit_pill_description">Description</string>
-    <string name="edit_pill_date">Date</string>
+    <string name="xs_sunday_name">S</string>
+    <string name="xs_monday_name">M</string>
+    <string name="xs_tuesday_name">T</string>
+    <string name="xs_wednesday_name">W</string>
+    <string name="xs_thursday_name">T</string>
+    <string name="xs_friday_name">F</string>
+    <string name="xs_saturday_name">S</string>
+    <string name="s_sunday_name">Sun</string>
+    <string name="s_monday_name">Mon</string>
+    <string name="s_tuesday_name">Tue</string>
+    <string name="s_wednesday_name">Wed</string>
+    <string name="s_thursday_name">Thu</string>
+    <string name="s_friday_name">Fri</string>
+    <string name="s_saturday_name">Sat</string>
 </resources>

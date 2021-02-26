@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/calendar_fragment"
-        android:name="com.viset.pillsreminder.CalendarFragment"
+        android:name="com.viset.pillsreminder.HomeFragment"
         android:label="fragment_calendar"
         tools:layout="@layout/fragment_calendar">
         <action

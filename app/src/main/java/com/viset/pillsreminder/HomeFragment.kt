@@ -10,10 +10,10 @@ import androidx.fragment.app.Fragment
 
 /**
  * A simple [Fragment] subclass.
- * Use the [CalendarFragment.newInstance] factory method to
+ * Use the [HomeFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class CalendarFragment : Fragment() {
+class HomeFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
